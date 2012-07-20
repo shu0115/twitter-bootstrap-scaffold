@@ -18,7 +18,23 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+rails g bootstrap:scaffold
+----------
+      create  app/assets/images/bootstrap
+      create  app/assets/javascripts/bootstrap
+      create  app/assets/stylesheets/bootstrap
+      create  app/assets/images/bootstrap/one/two/three
+      create  app/assets/images/bootstrap/glyphicons-halflings-white.png
+      create  app/assets/images/bootstrap/glyphicons-halflings.png
+      create  app/assets/javascripts/bootstrap/bootstrap.js
+      create  app/assets/javascripts/bootstrap/bootstrap.min.js
+      create  app/assets/stylesheets/bootstrap/bootstrap-responsive.css
+      create  app/assets/stylesheets/bootstrap/bootstrap-responsive.min.css
+      create  app/assets/stylesheets/bootstrap/bootstrap.css
+      create  app/assets/stylesheets/bootstrap/bootstrap.min.css
+----------
+```
 
 ## Contributing
 
@@ -27,3 +43,7 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## Thanks
+
+Twitter Bootstrap http://twitter.github.com/bootstrap

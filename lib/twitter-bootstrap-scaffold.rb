@@ -16,6 +16,7 @@ end
 module Bootstrap
   module Generators
     class ScaffoldGenerator < ::Rails::Generators::Base
+      source_root File.expand_path("../twitter-bootstrap-scaffold", __FILE__)
       desc "This generator scaffold for Twitter Bootstrap"
 
       #-------------------#
@@ -26,6 +27,7 @@ module Bootstrap
         empty_directory "app/assets/images/bootstrap"
         empty_directory "app/assets/javascripts/bootstrap"
         empty_directory "app/assets/stylesheets/bootstrap"
+        empty_directory "app/assets/images/bootstrap/one/two/three"
 
         # img／images
         copy_file( "templates/bootstrap/img/glyphicons-halflings-white.png", "app/assets/images/bootstrap/glyphicons-halflings-white.png" )
