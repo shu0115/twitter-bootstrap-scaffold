@@ -1,6 +1,6 @@
 # Twitter::Bootstrap::Scaffold
 
-TODO: Write a gem description
+[From Download Bootstrap (v2.0.4)](http://twitter.github.com/bootstrap/index.html)
 
 ## Installation
 
