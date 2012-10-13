@@ -2,17 +2,6 @@
 require 'rails/generators'
 require "twitter-bootstrap-scaffold/version"
 
-=begin
-module Twitter
-  module Bootstrap
-    module Scaffold
-      # Your code goes here...
-    end
-  end
-end
-=end
-
-
 module Bootstrap
   module Generators
     class ScaffoldGenerator < ::Rails::Generators::Base
@@ -35,13 +24,13 @@ module Bootstrap
 
         # js／javascripts
         copy_file( "templates/bootstrap/js/bootstrap.js", "app/assets/javascripts/bootstrap/bootstrap.js" )
-        copy_file( "templates/bootstrap/js/bootstrap.min.js", "app/assets/javascripts/bootstrap/bootstrap.min.js" )
+#        copy_file( "templates/bootstrap/js/bootstrap.min.js", "app/assets/javascripts/bootstrap/bootstrap.min.js" )
 
         # css／stylesheets
         copy_file( "templates/bootstrap/css/bootstrap-responsive.css", "app/assets/stylesheets/bootstrap/bootstrap-responsive.css" )
-        copy_file( "templates/bootstrap/css/bootstrap-responsive.min.css", "app/assets/stylesheets/bootstrap/bootstrap-responsive.min.css" )
+#        copy_file( "templates/bootstrap/css/bootstrap-responsive.min.css", "app/assets/stylesheets/bootstrap/bootstrap-responsive.min.css" )
         copy_file( "templates/bootstrap/css/bootstrap.css", "app/assets/stylesheets/bootstrap/bootstrap.css" )
-        copy_file( "templates/bootstrap/css/bootstrap.min.css", "app/assets/stylesheets/bootstrap/bootstrap.min.css" )
+#        copy_file( "templates/bootstrap/css/bootstrap.min.css", "app/assets/stylesheets/bootstrap/bootstrap.min.css" )
       end
     end
 
